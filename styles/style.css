@@ -18,7 +18,7 @@
 
  /* Here Is banner styles */
  .banner {
-     background-image: url(/resources/Banner\ Image.png);
+     background-image: url("../resources/Banner\ Image.png");
      background-size: cover;
      background-position: center;
      border-radius: 20px;
@@ -77,7 +77,7 @@
  /* Here Is Welcome Party Styles */
 
  .wlc-bg {
-     background-image: url(/resources/Vectorrr.png);
+     background: url("../resources/vector.png");
      display: flex;
      align-items: center;
      justify-content: space-between;
@@ -168,7 +168,7 @@
      weight: 100%;
      padding: 10%;
      border-radius: 20px;
-     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);;
+     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
  }
 
  .new-titile {
