@@ -1,16 +1,25 @@
+ /* Shere Style */
  @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:wght@400;600;800&display=swap');
 
  * {
      margin: 0;
      font-family: Merriweather;
  }
+ .shered-style{
+    
+    width: 75%;
+    margin-left: 5%;
+    max-width: 1360px;
+    text-align: center;
+    padding: 100px;
+    height: auto;
+    border-radius: 16px;
+ }
 
  /* Here Is banner styles */
  .banner {
      background-image: url(/resources/Banner\ Image.png);
-     height: auto;
-     weight: 100%;
-     max-width: 1360px;
+     
  }
 
  .titile {
@@ -34,7 +43,7 @@
      text-align: center;
      font-family: Inter;
      font-size: 88px;
-     padding-top: 120px;
+     padding-top: 10px;
  }
 
  .sub-titile {
@@ -56,8 +65,7 @@
  .new-year-pic {
      width: 50%;
      height: auto;
-     padding-left: 25%;
-     padding-bottom: 120px;
+     padding-left: 10%;
  }
 
  /* Here Is Welcome Party Styles */
@@ -70,7 +78,6 @@
      gap: 150px;
      padding-top: 50px;
      padding-bottom: 50px;
-     background-repeat: no-repeat;
 
  }
 
@@ -109,21 +116,14 @@
 
  /* Here Is Time Section OR Botton */
 
- .time-section {
-     padding-top: 50px;
-     fill: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
- }
-
- .time {
-     width: 100%;
-     height: 482px;
-     flex-shrink: 0;
-
+ .shered-style .time{
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    border-radius: 16px;
+    padding: 15%;
  }
 
  .time h3 {
      color: #070211;
-     padding-top: 100px;
      font-family: Inter;
      font-size: 32px;
      text-align: center;
@@ -234,17 +234,50 @@
      font-weight: 500;
  }
 
- /* Here is  subscribe style */
+ /* The best gifts style */
 
- .sub-back {
-     width: 75%;
-     margin-left: 5%;
-     text-align: center;
-     padding: 100px;
-     height: auto;
-     border-radius: 16px;
-     background: rgba(255, 0, 0, 0.05);
+ .the-best-gifts {
+    
+    width: 75%;
+    margin-left: 5%;
+    padding: 100px;
+    height: auto;
+    border-radius: 16px;
  }
+
+ .the-best {
+     color: #F00;
+     font-family: Inter;
+     font-size: 24px;
+ }
+
+ .portfolio {
+     color: #070211;
+     font-family: Merriweather;
+     font-size: 48px;
+     text-transform: capitalize;
+ }
+
+ .the-pra {
+     color: rgba(7, 2, 17, 0.60);
+     font-family: Inter;
+     font-size: 20px;
+ }
+
+ .img-row {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     margin: 20px 0;
+ }
+
+ .img-row img {
+     weight: 200px;
+     height: auto;
+     margin: 0 10px;
+ }
+
+ /* Here is  subscribe style */
 
  .sub-titile {
      color: #070211;
@@ -263,8 +296,8 @@
  }
 
  .form {
-    padding-top: 30px;
-    border-radius: 50px;
+     padding-top: 30px;
+     border-radius: 50px;
  }
 
 
@@ -276,15 +309,6 @@
      height: auto;
      background: #070211;
      margin-top: 50px;
- }
-
- .footer {
-     width: 100%;
-     height: auto;
-     gap: 50%;
-     padding-left: 50px;
-     padding-top: 50px;
-     display: flex;
  }
 
  .footer p {
