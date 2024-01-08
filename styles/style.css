@@ -1,0 +1,181 @@
+ @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:wght@400;600;800&display=swap');
+
+ * {
+     /* padding: 140px; */
+     margin: 0;
+     font-family: Merriweather;
+ }
+
+ /* Here Is banner styles */
+ .banner {
+     background-image: url(/resources/Banner\ Image.png);
+     width: 1320px;
+     height: 600px;
+ }
+
+ .titile {
+     color: #FFF;
+     padding-top: 233px;
+     text-align: center;
+     font-size: 32px;
+ }
+
+ .pragraph {
+     color: #FFF;
+     text-align: center;
+     font-size: 72px;
+     font-weight: 900
+ }
+
+ /* Here Is HAPPY NEW YEAR Styles */
+
+ .hny-titile {
+     color: #F00;
+     text-align: center;
+     font-family: Inter;
+     font-size: 88px;
+     padding-top: 120px;
+ }
+
+ .sub-titile {
+     color: #F00;
+     text-align: center;
+     font-family: Inter;
+     font-size: 24px;
+     padding-top: 18px;
+ }
+
+ .mini-pra {
+     color: #070211;
+     text-align: center;
+     font-family: Inter;
+     font-size: 48px;
+     padding-top: 8px;
+ }
+
+ .new-year-pic {
+     width: 802.9px;
+     height: 500px;
+     padding-left: 200px;
+     padding-bottom: 120px;
+ }
+
+ /* Here Is Welcome Party Styles */
+
+ .wlc-bg {
+     background-image: url(/resources/Vectorrr.png);
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     gap: 150px;
+     padding-top: 50px;
+     padding-bottom: 50px;
+     background-repeat: no-repeat;
+
+ }
+
+ .wlc-text {
+     padding-left: 100px;
+ }
+
+ .wlc-h3-text {
+     color: #FFF;
+     font-size: 48px;
+     letter-spacing: 7.01px;
+ }
+
+ .wlc-pra {
+     color: rgba(255, 255, 255, 0.80);
+     font-family: Inter;
+     font-size: 18px;
+     padding-top: 10px;
+ }
+
+ .btn {
+     color: #FFF;
+     margin-top: 10px;
+     margin-left: 50px;
+     text-align: center;
+     font-family: Inter;
+     border: 0;
+     font-size: 20px;
+     background-color: black;
+     text-transform: uppercase;
+ }
+
+ .welc-bg-img {
+     width: 100%;
+ }
+
+ /* Here Is Time Section OR Botton */
+
+ .time {
+     /* background-color: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(226, 141, 141, 0) 100%); */
+     width: 1320px;
+     height: 482px;
+     flex-shrink: 0;
+
+ }
+
+ .time h3 {
+     color: #070211;
+     padding-top: 100px;
+     font-family: Inter;
+     font-size: 32px;
+     text-align: center;
+     text-transform: capitalize;
+
+ }
+
+ .time-color {
+     color: #F00;
+     text-align: center;
+     font-family: Inter;
+     font-size: 32px;
+     text-transform: capitalize;
+ }
+
+ .btn2 {
+     padding: 16px 32px;
+     align-items: center;
+     border-radius: 8px;
+     background: #F00;
+     color: #FFF;
+     margin-left: 45%;
+     margin-top: 20px;
+
+ }
+
+ /* Here Is comming soon offer */
+
+ .new-bo-content {
+     padding-left: 10px;
+     /* width: 1600px;
+     height: 7335px; */
+     display: flex;
+ }
+
+ .new-titile {
+     color: #F00;
+     /* text-align: center; */
+     font-family: Inter;
+     font-size: 24px;
+ }
+
+ .new-sub-titile {
+     color: #070211;
+     font-family: Merriweather;
+     font-size: 48px;
+     text-transform: capitalize;
+ }
+
+ .new-pragraph {
+     color: rgba(7, 2, 17, 0.60);
+     font-family: Inter;
+     font-size: 20px;
+ }
+
+.new-bo{
+    /* display: flex; */
+}
+ 
