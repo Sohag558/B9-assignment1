@@ -212,7 +212,7 @@
 
  .what-is {
      text-align: center;
-     weight: 100%;
+     /* weight: 100%; */
      padding-top: 100px;
      padding-bottom: 50px;
  }
@@ -238,6 +238,18 @@
      font-size: 20px;
      font-weight: 500;
  }
+.img-2{
+    position: absolute;
+    left: 9%;
+}
+.img-1{
+    position: absolute;
+    left: 45%;
+}
+.img-3{
+    position: relative;
+    left: 32.8%;
+}
 
  /* The best gifts style */
 
